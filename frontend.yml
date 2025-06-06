@@ -1,5 +1,5 @@
 - name: frontend-setup
-  hosts: 172.31.16.131
+  hosts: all
   become: true
   tasks:
     - name: disbale nginx
