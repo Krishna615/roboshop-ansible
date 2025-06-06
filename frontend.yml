@@ -2,7 +2,7 @@
   hosts: all
   become: true
   tasks:
-    - name: disbale nginx
+    - name: disbale nginx service
       ansible.builtin.shell: dnf module disable nginx -y
 
     - name: enable nginx
